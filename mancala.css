@@ -1,0 +1,202 @@
+div {
+	box-sizing: border-box;
+}
+
+
+#gameTitle {
+	color: white;
+	position: relative;
+	top: 275px;
+	left: 525px;
+	font-size: 48px;
+}
+
+#board {
+	position: relative;
+	/*border: 3px solid white;*/
+	width: 1200px;
+	height: 400px;
+	cursor: pointer;
+	border-radius: 25px;
+	left: 150px;
+	
+}
+
+#newGame-btn {
+	position: relative;
+	top: 325px;
+	left: 50px;
+	background-color: white; 
+	color: black;
+	padding: 16px 32px;
+	border-radius: 25px;
+	font-size: 24px;
+
+}
+
+#pebble {
+	width: 25px;
+	height: 25px;
+	border-radius: 75px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+body {
+	background-color: #ff0000;
+}
+
+.p1 {
+	/*display: inline-block;*/
+	position: absolute;
+	border: 7px solid white;
+	width: 150px;
+	height: 400px;
+	border-radius: 25px;
+	/*border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;*/
+
+}
+
+.p2{
+	position: absolute;
+	border: 7px solid white;
+	width: 150px;
+	height: 400px;
+	border-radius: 25px;
+	/*border-bottom-right-radius: 25px;
+	border-top-right-radius:  25px;*/
+}
+
+.pit {
+	position: absolute;
+	border: 7px solid white;
+	width: 150px;
+	height: 200px;
+	border-radius: 25px;
+}
+
+.pitnum {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+#ui {
+	position: absolute;
+	font-size: 48px;
+	color: white;
+	left: 1000px;
+}
+
+#blimp {
+	/*background-image: url("player1.png");*/
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	left: 1250px;
+	border: 0;
+	animation-name: blimpfloat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes blimpfloat {
+    from { 
+    	transform: translate(0,  -40px);
+    	 }
+    65%  { 
+    	transform: translate(0, -65px); 
+    }
+    to  { 
+    	transform: translate(0, -40px); 
+      }    
+}
+
+#tile-6 {
+	left: 0px;
+	top: 0px;
+}
+
+#tile-5 {
+	left: 150px;
+	top: 0px;
+}
+
+#tile-4 {
+	left: 300px;
+	top: 0px;
+}
+
+#tile-3 {
+	left: 450px;
+	top: 0px;
+}
+
+#tile-2 {
+	left: 600px;
+	top: 0px;
+}
+
+#tile-1 {
+	left: 750px;
+	top: 0px;
+}
+
+#tile-0 {
+	left: 900px;
+	top: 0px;
+}
+
+#tile-7 {
+	left: 150px;
+	top: 200px;
+}
+
+#tile-8 {
+	left: 300px;
+	top: 200px;
+}
+
+#tile-9 {
+	left: 450px;
+	top: 200px;
+}
+
+#tile-10 {
+	left: 600px;
+	top: 200px;
+}
+
+#tile-11 {
+	left: 750px;
+	top: 200px;
+}
+
+#tile-12 {
+	left: 900px;
+	top: 200px;
+}
+
+#tile-13 {
+	left: 1050px;
+	top: 0px;
+}
+
+#p1score, #pit1count, #pit2count, #pit3count, #pit4count, #pit5count, #pit6count {
+	color: white;
+}
+
+#p2score, #pit7count, #pit8count, #pit9count, #pit10count, #pit11count, #pit12count {
+	color: white;
+}
+
+
+
+
+
+
+
+
